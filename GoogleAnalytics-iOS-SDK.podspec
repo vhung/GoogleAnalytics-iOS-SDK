@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CFNetwork', 'CoreData', 'SystemConfiguration'
   s.weak_frameworks = 'AdSupport'
-  s.library   = 'GoogleAnalyticsServices', 'z'
+  s.library   = 'GoogleAnalyticsServices', 'z', 'sqlite3'
 
   s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleAnalytics-iOS-SDK"',
                    'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz' }
