@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GoogleAnalytics-iOS-SDK"
-  s.version      = "3.0.8"
+  s.version      = "3.0.9"
   s.summary      = "GoogleAnalytics for iOS SDK."
   s.description  = <<-DESC
   The Google Analytics SDK for iOS makes it easy for native iOS developers to collect user engagement data form their applications. Developers can then use the Google Analytics reports to measure:
